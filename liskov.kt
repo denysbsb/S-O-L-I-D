@@ -1,7 +1,7 @@
 // L.
 // Liskov Principle
 // Principio de Liskov de substituição
-// pode substituir objetos da classe pai masdevem ser usados
+// pode substituir objetos da classe pai que nao quebrem a aplicação ou condicionais
 
 /* Exemplo errado */
 interface Ave(){
