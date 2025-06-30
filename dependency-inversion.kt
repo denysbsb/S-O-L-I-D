@@ -12,9 +12,10 @@ class Email{
 
 class Notificador{
     val service = Email()
+    val serviceSms = Sms()
 
     fun enviar(destinatario:String, txt: String){
-        service.notificar(txt)
+        service.notificar(destinatario,txt)
     }
 }
 
